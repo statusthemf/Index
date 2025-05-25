@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scary Simulation</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 5em;
+            text-shadow: 0px 0px 20px red;
+        }
+        .blink {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="blink">WARNING!</h1>
+    <p>This is a simulation of a scary website.</p>
+    <p>Your computer is safe, and this is only for educational purposes.</p>
+    <script>
+        // Example of a harmless "scary" behavior
+        alert("This is just a simulation. Don't worry, no harm done!");
+        console.log("Simulated scary website loaded.");
+    </script>
+</body>
+</html>
